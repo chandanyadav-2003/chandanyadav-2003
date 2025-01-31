@@ -1,12 +1,12 @@
-- 👋 Hi, I’m @chandanyadav-2003
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
-
-<!---
-chandanyadav-2003/chandanyadav-2003 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+// wap if a and b whole square
+#include <iostream>
+using namespace std;
+int main()
+{
+int a,b,square;
+cout<<"\nEnter number a&b:"<<endl;
+cin>>a>>b;
+square=a*a+2*a*b+b*b;
+cout<<"\nwhole square of (a+b)="<<square<<endl;
+return 0;
+}
